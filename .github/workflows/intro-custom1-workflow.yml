@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/intro-custom-workflow.yml'
+      - '.github/workflows/intro-custom1-workflow.yml'
 jobs:
   execute:
     runs-on: ubuntu-latest
